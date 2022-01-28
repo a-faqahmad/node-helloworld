@@ -1,0 +1,9 @@
+1. deploy docker image on ECR.
+2. create ECS cluster
+3. create ECS task defination
+4. create load balancer in EC2.
+	put type as IP from instance
+	listener port should be 80/HTTP
+	routing port should be your docker port
+5. create service back in ECS
++. Edit inbound rules for security groups and checge the type to All TCP.
